@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul class="menu--lists">
+                <li class="menu--list profile">
+                    <div class="profile--img-box">
+                        <img src="./img/photo_2023-08-28_20-50-54.jpg" class="profile--img" alt="profile">
+                    </div>
+                    <div class="profile--header">Mohamed Maaly</div>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard active">
+                        <i class="fas fa-home dashboard--icon"></i>
+                        <p class="dashboard--text">Home</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-user-group dashboard--icon"></i>
+                        <p class="dashboard--text">Clients</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-table dashboard--icon"></i>
+                        <p class="dashboard--text">Products</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-chart-pie dashboard--icon"></i>
+                        <p class="dashboard--text">Charts</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-pen dashboard--icon"></i>
+                        <p class="dashboard--text">Posts</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-star dashboard--icon"></i>
+                        <p class="dashboard--text">Favorite</p>
+                    </a>
+                </li>
+                <li class="menu--list">
+                    <a href="#" class="dashboard">
+                        <i class="fas fa-cog dashboard--icon"></i>
+                        <p class="dashboard--text">Settings</p>
+                    </a>
+                </li>
+                <li class="log-out">
+                    <a href="#" class="log-out--link dashboard">
+                        <i class="fas fa-sign-out dashboard--icon"></i>
+                        <p class="log-out--text">Log Out</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="title-info">
+                <p class="text-title">Home</p>
+                <i class="fas fa-chart-bar dashboard--icon"></i>
+            </div>
+            <div class="data-info">
+                <div class="box">
+                    <i class="fas fa-user"></i>
+                    <div class="data-box">
+                        <p class="C">User</p>
+                        <span class="number-user">1285</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-pen"></i>
+                    <div class="data-box">
+                        <p class="data-user">Posts</p>
+                        <span class="number-user">372</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-table"></i>
+                    <div class="data-box">
+                        <p class="data-user">Products</p>
+                        <span class="number-user">65</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-dollar"></i>
+                    <div class="data-box">
+                        <p class="data-user">Revenue</p>
+                        <span class="number-user">85000$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="title-info">
+                <p class="text-title">Products</p>
+                <i class="fas fa-table dashboard--icon"></i>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>TV</td>
+                    <td><span class="price">$199</span></td>
+                    <td><span class="count">617</span></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><span class="price">$400</span></td>
+                    <td><span class="count">41</span></td>
+                </tr><tr>
+                    <td>Apple</td>
+                    <td><span class="price">$5</span></td>
+                    <td><span class="count">11</span></td>
+                </tr><tr>
+                    <td>Door</td>
+                    <td><span class="price">$40</span></td>
+                    <td><span class="count">6</span></td>
+                </tr><tr>
+                    <td>Bar</td>
+                    <td><span class="price">$80</span></td>
+                    <td><span class="count">32</span></td>
+                </tr><tr>
+                    <td>Boxer-Hand</td>
+                    <td><span class="price">$30</span></td>
+                    <td><span class="count">17</span></td>
+                </tr><tr>
+                    <td>Jock-Stick</td>
+                    <td><span class="price">$120</span></td>
+                    <td><span class="count">87</span></td>
+                </tr><tr>
+                    <td>Kamal</td>
+                    <td><span class="price">$5000</span></td>
+                    <td><span class="count">1</span></td>
+                </tr>   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+</html>
